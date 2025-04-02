@@ -1,0 +1,10 @@
+{
+    "window.commandCenter": true,
+    "git.openRepositoryInParentFolders": "always",
+    "cucumber.features": [
+        "src/tests/features/*.feature",
+    ],
+    "cucumber.glue": [
+        "src/tests/step-definitions/*.ts"
+    ]
+}

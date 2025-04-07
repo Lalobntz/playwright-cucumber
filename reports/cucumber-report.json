@@ -1,0 +1,230 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-with-different-credentials-with-different-responses;verify-different-responses-for-different-user's-credentials",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify different responses for different user's credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5893867500
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7077172000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The Sauce Demo URL",
+            "match": {
+              "location": "src\\test\\steps\\different_loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1883283400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter username as \"locked_out_user\"",
+            "match": {
+              "location": "src\\test\\steps\\different_loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79086200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Enter password as \"secret_sauce\"",
+            "match": {
+              "location": "src\\test\\steps\\different_loginSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27292600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Click on Login buttom",
+            "match": {
+              "location": "src\\test\\steps\\different_loginSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93842400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Verify login message as \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "location": "src\\test\\steps\\different_loginSteps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16380600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 60007707299,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\cesar.perez.munoz\\OneDrive - Accenture\\Documents\\Playwright-Cucumber_1\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 583943599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-with-different-credentials-with-different-responses;verify-different-responses-for-different-user's-credentials",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify different responses for different user's credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4761854099
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4589893900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The Sauce Demo URL",
+            "match": {
+              "location": "src\\test\\steps\\different_loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6844760699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter username as \"standard_user\"",
+            "match": {
+              "location": "src\\test\\steps\\different_loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58202700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Enter password as \"sauce_secret\"",
+            "match": {
+              "location": "src\\test\\steps\\different_loginSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28402199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Click on Login buttom",
+            "match": {
+              "location": "src\\test\\steps\\different_loginSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75116599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Verify login message as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "location": "src\\test\\steps\\different_loginSteps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9162800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 949598500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 923938999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-with-different-credentials-with-different-responses",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login with different credentials with different responses",
+    "tags": [],
+    "uri": "src\\test\\features\\different_login.feature"
+  }
+]

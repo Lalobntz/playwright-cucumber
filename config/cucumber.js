@@ -1,24 +1,11 @@
-module.exports ={
-    default: {
-        paths: [
-            "src/test/features/different_login.feature"
-        ], 
-        dryRun: false,
-        format: [
-            "progress-bar",
-            "summary",
-            "json:reports/cucumber-report.json",
-            "html:reports/cucumber-report.html"
-        ],
-        formatOptions: {
-            colorsEnabled: true,
-            snippetInterface: "async-await"
-        },
-        require: [
-            "src/test/steps/*.ts"
-        ],
-        requireModule: [
-            "ts-node/register"
-        ]
-    }
-}
+// cucumber.js
+require('ts-node/register');
+
+module.exports = {
+    default: [
+        '--require-module ts-node/register',             // Permite ejecutar archivos TS sin compilación previa
+        '--require src/test/step_definitions/**/*.ts',   // Ruta de los step definitions
+        '--require src/test/support/**/*.ts',            // Ruta de los hooks u otros archivos de soporte
+        '--format summary'                               // Formato de salida
+    ].join(' ')
+};

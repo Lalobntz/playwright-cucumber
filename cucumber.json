@@ -4,12 +4,11 @@
             "colorEnabled": true,
             "snippentInterface": "async-await"
         },
-        "paths":[ "src/test/features/different_login.feature" ],
+        "paths":[ "src\\test\\features\\different_login.feature" ],
         "publishQuite": true,
         "dryRun": false,
         "require": [
-            "src\\test\\steps\\*.ts",
-            "src/test/utiles/hooks.ts"
+            "src\\test\\step_definitions\\*.ts"
         ],
         "requireModule": [
             "ts-node/register"
